@@ -179,6 +179,11 @@
 
 
         }
+        .frame_titel{
+            font-size: 30px; 
+            text-align: center;
+            padding-top: 10px;
+        }
 
         /*-----Portfolio-------*/
 
@@ -230,6 +235,7 @@
             display: block;
             margin-top: 9px;
         }
+        
 
         /*Responsive*/
         @media only screen and (max-width:768px){
@@ -254,20 +260,23 @@
 
             }
             div.section{
-                padding-left: 20px;
-                padding-right: 20px;
+                padding: 15px 10px;
+                
             
             }
 
             h2{
                 font-size: 25px;
             }
-            .col40{
+           /* .col40{
                 width: 100%;
-            }
+                
+            }*/
 
             .col60{
                 width:100%;
+                padding-left: 0px;
+
                 
             }
             .col50{
@@ -275,7 +284,28 @@
             }
 
             iframe{
-                height: 200px;
+                height: 200px;width: 100%;
             }
+            .frame{
+            width:100%;
+            box-shadow: none;
+            
+
+
+        }
+        p.frame_titel{
+            margin: 7px 0px;
+            font-size: 20px;
+            padding-top: 0px;
+        }
+        div.frame table{
+            height: 60%;
+        }
+        .portfolio_header{
+            padding-top: 15px;
+            padding-left: 8px;
+
+           
+        }
 
         }
